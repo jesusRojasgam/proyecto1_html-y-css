@@ -1,0 +1,101 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/* BARRA */
+
+.barra {
+padding: 10px;
+background-color: black;
+color: #fff;
+border: white 2px solid;
+}
+
+.barra_menu {
+/* display: flex; */
+justify-content: space-around;
+align-items: center;
+list-style: none;
+}
+
+.barra_item {
+font-size: 20px;
+padding: 10px;
+text-transform: uppercase;
+}
+
+.barra_item img {
+height: 30px;
+}
+
+.barra_link {
+text-decoration: none;
+color: #fff;
+}
+
+.barra_link:hover {
+color: grey;
+}
+
+
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    grid-template-areas:
+    "container container container container" 
+    "gallery__item gallery__item--1 gallery__item gallery__item--1 gallery__item gallery__item--2 gallery__item gallery__item--2"
+    "gallery__item--1 gallery__item--1 gallery__item--2 gallery__item--2"
+    "gallery__item gallery__item--3 gallery__item gallery__item--3 gallery__item gallery__item--4 gallery__item gallery__item--4"
+    "gallery__item gallery__item--3 gallery__item gallery__item--3 gallery__item gallery__item--4 gallery__item gallery__item--4"
+    "gallery__item gallery__item--5 gallery__item gallery__item--5 gallery__item gallery__item--6 gallery__item gallery__item--6"
+    "gallery__item--5 gallery__item--5 gallery__item--6 gallery__item--6";
+
+    gap: 10px;
+}
+
+.container{
+    grid-area: container;
+    background-color: seagreen;
+}
+
+.gallery__item--1{
+    grid-area: gallery__item gallery__item--1;
+    background-color: sienna;
+}
+
+.gallery__item--2{
+    grid-area: gallery__item gallery__item--2;
+    background-color: skyblue;
+}
+.gallery__item--3{
+    grid-area: gallery__item gallery__item--3;
+    background-color:blue;
+}
+.gallery__item--4{
+    grid-area: gallery__item gallery__item--4;
+    background-color: red;
+}
+.gallery__item--5{
+    grid-area: gallery__item gallery__item--5;
+    background-color: green;
+}
+.gallery__item--6{
+    grid-area: gallery__item gallery__item--6;
+    background-color: black;
+}
+
+@media only screen and (max-width: 900px) {
+.container{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "container"
+    "gallery__item--1, gallery__item--2"
+    "gallery__item--3, gallery__item--4"
+    "gallery__item--3, gallery__item--4"
+    ;
+} 
+}

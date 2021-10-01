@@ -1,0 +1,113 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/* BARRA */
+
+.barra {
+padding: 10px;
+background-color: black;
+color: #fff;
+border: white 2px solid;
+}
+
+.barra_menu {
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+}
+
+.barra_item {
+font-size: 20px;
+padding: 10px;
+text-transform: uppercase;
+}
+
+.barra_item img {
+height: 30px;
+}
+
+.barra_link {
+text-decoration: none;
+color: #fff;
+}
+
+.barra_link:hover {
+color: grey;
+}
+
+/* PRODUCIONES*/
+
+.producciones {
+display: flex;
+justify-content: center;
+flex-direction: column;
+border-bottom: 4px solid black;
+background-color: black;
+align-items: center;
+text-align: center;
+color: white;
+}
+.producciones_contenedor{
+text-align: center;
+padding: 50px;
+}
+
+.producciones_introducion{
+font-size: 50px;
+margin-top: 50px;
+}
+
+.producciones_caption {
+font-size: 30px;
+  
+}
+
+.producciones iframe {
+border-radius: 8px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+/* somos */
+
+.somos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+
+.somos__container{
+text-align: center;
+margin: 50px;
+}
+
+.somos__intro{    
+font-size: 40px;
+font-weight: bold;
+}
+
+.somos__caption{
+font-size: 30px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+height: 40px;
+width: 100%;
+background-color: black;
+color: white;
+}
+  
+footer p {
+margin: 14px;
+font-size: 20px;
+}
+
+footer strong {
+color: grey;
+}
