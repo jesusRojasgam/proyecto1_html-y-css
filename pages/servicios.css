@@ -5,36 +5,36 @@
 
 /* BARRA */
 
-.barra {
+.bar {
   padding: 10px;
   background-color: black;
   color: #fff;
   border: white 2px solid;
 }
 
-.barra_menu {
+.bar_menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
 
-.barra_item {
+.bar_item {
   font-size: 20px;
   padding: 10px;
   text-transform: uppercase;
 }
 
-.barra_item img {
+.bar_item img {
   height: 30px;
 }
 
-.barra_link {
+.bar_link {
   text-decoration: none;
   color: #fff;
 }
 
-.barra_link:hover {
+.bar_link:hover {
   color: grey;
 }
 

@@ -5,42 +5,42 @@
 
 /* BARRA */
 
-.barra {
+.bar {
   padding: 10px;
   background-color: black;
   color: #fff;
   border: white 2px solid;
 }
 
-.barra_menu {
+.bar_menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
 
-.barra_item {
+.bar_item {
   font-size: 20px;
   padding: 10px;
   text-transform: uppercase;
 }
 
-.barra_item img {
+.bar_item img {
   height: 30px;
 }
 
-.barra_link {
+.bar_link {
   text-decoration: none;
   color: #fff;
 }
 
-.barra_link:hover {
+.bar_link:hover {
   color: grey;
 }
 
 /* PRODUCIONES*/
 
-.producciones {
+.production {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -50,21 +50,21 @@
   text-align: center;
   color: white;
 }
-.producciones_contenedor {
+.production_container {
   text-align: center;
   padding: 50px;
 }
 
-.producciones_introducion {
+.production_intro {
   font-size: 50px;
   margin-top: 50px;
 }
 
-.producciones_caption {
+.production_caption {
   font-size: 30px;
 }
 
-.producciones iframe {
+.production iframe {
   border-radius: 8px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -72,24 +72,24 @@
 
 /* somos */
 
-.somos {
+.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
-.somos__container {
+.about__container {
   text-align: center;
   margin: 50px;
 }
 
-.somos__intro {
+.about__intro {
   font-size: 40px;
   font-weight: bold;
 }
 
-.somos__caption {
+.about__caption {
   font-size: 30px;
 }
 
