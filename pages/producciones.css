@@ -63,8 +63,8 @@
   border-image-width: 100%;
 }
 
-/* @media only screen and (max-width: 900px) {
-.container{
+@media only screen and (max-width: 900px) {
+.gallery{
     grid-template-columns: 1fr;
     grid-template-areas: 
     "gallery__item, gallery__item"
@@ -72,4 +72,4 @@
     "gallery__item, gallery__item"
     ;
 }
-}  */
+} 
