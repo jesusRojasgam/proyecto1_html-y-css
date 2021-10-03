@@ -6,15 +6,15 @@
 /* BARRA */
 
 .bar {
-  padding: 10px;
   background-color: black;
   color: #fff;
-  border: white 2px solid;
+  border-bottom: white 2px solid;
 }
 
 .bar_menu {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   align-items: center;
   list-style: none;
 }
@@ -22,7 +22,7 @@
 .bar_item {
   font-size: 20px;
   padding: 10px;
-  text-transform: uppercase;
+  
 }
 
 .bar_item img {
